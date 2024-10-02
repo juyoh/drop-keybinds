@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "drop-keybinds",
+	"version": "${version}",
+	"name": "Drop Keybinds",
+	"description": "Keybinds for dropping items in different ways!",
+	"authors": [
+		"Me!"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/drop-keybinds/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.juyoh.dropkeybinds.DropKeybinds"
+		],
+		"client": [
+			"net.juyoh.dropkeybinds.DropKeybindsClient"
+		]
+	},
+	"mixins": [
+		"drop-keybinds.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

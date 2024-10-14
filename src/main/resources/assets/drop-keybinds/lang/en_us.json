@@ -1,5 +1,14 @@
 {
   "key.category.dropkeybinds": "Drop Keybinds",
   "key.dropkeybinds.half": "Drop Half",
-  "key.dropkeybinds.stack": "Drop Stack"
+  "key.dropkeybinds.stack": "Drop Stack",
+
+  "key.dropkeybinds.amount1": "Customizable Keybind 1",
+  "key.dropkeybinds.amount2": "Customizable Keybind 2",
+  "key.dropkeybinds.amount3": "Customizable Keybind 3",
+  "key.dropkeybinds.amount4": "Customizable Keybind 4",
+  "key.dropkeybinds.amount5": "Customizable Keybind 5",
+
+  "gui.dropkeybinds.openconfigbutton": "Open DropKeybinds Config",
+  "gui.dropkeybinds.config_title": "DropKeybinds Amount Config"
 }
